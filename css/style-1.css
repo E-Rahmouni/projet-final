@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&family=Rubik:wght@300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--grey1);
+}
+
+:root{
+    --white: #fff;
+    --black: #333;
+    --pink: #c40ee4;
+    --pink3: #e47df7;
+    --grey1: #fffcfc;
+    --grey2: #948e8d;
+    --pink2: #d5abdc;
+    --border:.2rem solid var(--black);
+    --box-shadow: 0 .5rem 1rem  rgba(0,0,0,.1);
+}
+
+li, a{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--withe);
+    text-decoration: none;
+    background-color: var(--pink);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    background-color: var(--pink);
+}
+
+.logo{
+    cursor: pointer;
+    color: var(--white);
+}
+
+.logo span{
+    background-color: var(--pink);
+    color: var(--black);
+}
+
+.nav-links{
+    list-style: none;
+    background-color: var(--pink);
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav-links li a:hover{
+    color: var(--white);
+}
+
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about .row .box{
+    flex: 1 1 40rem;
+    text-align: center;
+}
+
+.about .row .box img{
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 40rem;
+    object-fit: contain;
+}
+
+.about .row .box h3{
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--pink);
+}
+
+.about .row .box p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--grey2);
+    padding: 1rem 0;
+}
+
+.about .row .box .btn{
+    display: inline-block;
+    width: auto;
+}
+
+
