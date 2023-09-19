@@ -26,7 +26,7 @@
         <div class="row">
 
             <div class="box">
-                <img src="images/about-img-1.png" alt="">
+                <img src="images/Gold_Luxury_Business_Logo.png" alt="">
                 <h3>why choose us?</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis quisquam deserunt iusto aperiam veniam sed ipsum debitis ex expedita adipisci, recusandae nihil repellat quos voluptates perferendis excepturi a inventore vel.</p>
             </div>
